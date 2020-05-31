@@ -52,14 +52,15 @@ die('Error: Value is empty!');}
 if ($value == 1){
 $change=rand(20000,50000);
 $method == "decrease";
-$chimethod = "赢取";
+$chimethod = "输掉";
 }else if ($value == 2){
 $change=rand(10000,20000);
 $method == "decrease";
-$chimethod = "赢取";
+$chimethod = "输掉";
 }else if ($value == 3){
 $change=rand(0,100);
-$method == "increase";
+$method == "decrease";
+$chimethod = "输掉";
 }else if ($value == 4){
 $change=rand(100,1000);
 $method == "increase";
